@@ -1,0 +1,54 @@
+body{
+    background-color: lightgrey;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.card1{
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    flex-direction: row;
+}
+.card2{
+    background-color: white;
+    width: 500px;
+    height: 500px;    
+}
+.img{
+    width: 10px;
+    height: 50px;
+}
+.text{
+    margin-top: 50px;
+    margin-left: 50px;   
+}
+p{
+    font-size: 20px;
+}
+.main-button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+    margin-right: 20px;
+}
+.button{
+    border: 2px solid black;
+    display: flex;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.price{
+    margin-top: 370px;
+    margin-left: 370px;
+    font-size: 30px;
+}
